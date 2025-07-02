@@ -11,6 +11,6 @@ class WalkthroughController extends GetxController {
   }
 
   void start() {
-    Get.offAllNamed('/home'); 
+    Get.offAllNamed('/home');
   }
 }

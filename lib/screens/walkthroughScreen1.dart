@@ -13,7 +13,7 @@ class WalkthroughScreen1 extends StatelessWidget {
     return WalkthroughScreenWidget.buildWalkthroughScreen(
       context: context,
       imagePath: 'assets/Frame 165.png',
-      title: 'Online Consultation',
+      title: 'Online Consultation', 
       description: 'Connect with healthcare professionals virtually for convenient medical advice and support.',
       onPressed: () => _controller.nextPage(),
       buttonText: 'Next',
