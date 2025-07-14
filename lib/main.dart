@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       home: HomeScreen(),
-      initialRoute: '/splash',
+      initialRoute: '/homescreen',
       getPages: [
         GetPage(name: '/splash', page: () => const SplashScreen()),
         GetPage(name: '/walkthrough1', page: () =>  WalkthroughScreen1()),
