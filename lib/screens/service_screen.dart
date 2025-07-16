@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-
 import 'package:medcare/Constants/text_styles.dart';
 import 'package:medcare/constants/app_color.dart';
 import 'package:medcare/constants/app_dimesions.dart';

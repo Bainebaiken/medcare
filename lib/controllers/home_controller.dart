@@ -1,6 +1,4 @@
-
 import 'package:get/get.dart';
-
 import 'package:medcare/screens/service_screen.dart';
 
 

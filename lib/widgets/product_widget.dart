@@ -12,14 +12,16 @@ class ProductsWidget {
           Text('Best Selling Products', style: TextStyle(fontWeight: FontWeight.w600, fontSize: 16)),
           SizedBox(height: AppDimensions.getResponsiveHeight(context, 1)),
           SizedBox(
-            height: 120,
+            height: 130,
             child: ListView(
               scrollDirection: Axis.horizontal,
               children: [
                 buildProductCard(context, controller, 'Braces', 'assets/braces.jpg'),
-                buildProductCard(context, controller, 'Vaccine', 'assets/vaccine.jpg'),
-                buildProductCard(context, controller, 'Mask', 'assets/mask.jpg'),
-                buildProductCard(context, controller, 'Wheelchair', 'assets/wheelchair.jpg'),
+                buildProductCard(context, controller, 'Vaccine', 'assets/vaccine1.jpg'),
+                buildProductCard(context, controller, 'Mask', 'assets/wheelchair.jpg'),
+                buildProductCard(context, controller, 'Wheelchair', 'assets/vaccine1.jpg'),
+                buildProductCard(context, controller, 'Mask', 'assets/wheelchair.jpg'),
+                buildProductCard(context, controller, 'Wheelchair', 'assets/vaccine1.jpg'),
               ],
             ),
           ),

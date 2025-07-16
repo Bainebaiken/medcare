@@ -59,7 +59,7 @@ class CategoriesWidget {
               decoration: const BoxDecoration(
                 shape: BoxShape.circle,
               ),
-              child: Icon(icon, size: 24),
+              child: Icon(icon, size: 36),
             ),
             SizedBox(height: 8),
             Text(

@@ -15,7 +15,7 @@ class LoginScreen extends StatefulWidget {
 
 class _LoginScreenState extends State<LoginScreen> {
   final _formKey = GlobalKey<FormState>();
-  String? _selectedMode = 'No Phone'; // Default mode
+  String? _selectedMode = 'No Phone'; 
   final _noPhoneController = TextEditingController();
   final _emailController = TextEditingController();
   bool _isVerified = false;

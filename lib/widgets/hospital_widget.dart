@@ -12,14 +12,14 @@ class HospitalsWidget {
           Text('Nearby Hospitals', style: TextStyle(fontWeight: FontWeight.w600, fontSize: 16)),
           SizedBox(height: AppDimensions.getResponsiveHeight(context, 1)),
           SizedBox(
-            height: 100,
+            height: 200,
             child: ListView(
               scrollDirection: Axis.horizontal,
               children: [
                 buildHospitalCard(context, controller, 'RSCM', 'Cipto Mangunkusumo Hospital (RSCM)', 'assets/rscdm.png'),
                 buildHospitalCard(context, controller, 'Mitra Keluarga', '24/7 Emergency Services', 'assets/emegency.png'),
-                buildHospitalCard(context, controller, 'Siloam Hospital', 'Advanced Medical Care', 'assets/siloam.png'),
-                buildHospitalCard(context, controller, 'Mayapada Hospital', 'Comprehensive Healthcare', 'assets/mayapada.png'),
+                buildHospitalCard(context, controller, 'Siloam Hospital', 'Advanced Medical Care', 'assets/maya.jpg'),
+                buildHospitalCard(context, controller, 'Mayapada Hospital', 'Comprehensive Healthcare', 'assets/emegency.png'),
               ],
             ),
           ),
@@ -33,7 +33,7 @@ class HospitalsWidget {
     return GestureDetector(
       onTap: () => controller.onHospitalTap(name),
       child: Container(
-        width: 280,
+        width: 180,
         margin: EdgeInsets.only(right: 12),
         padding: EdgeInsets.all(12),
         decoration: BoxDecoration(
